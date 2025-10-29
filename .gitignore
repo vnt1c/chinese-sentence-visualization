@@ -1,0 +1,58 @@
+# =======================================================
+# Dependencies
+# =======================================================
+# Ignore all node_modules folders at any level
+node_modules/
+
+
+# =======================================================
+# Environment Variables
+# =======================================================
+# Ignore all .env files, but track example files
+.env
+.env.*
+!.env.example
+
+
+# =======================================================
+# Build Artifacts
+# =======================================================
+# Server build output (from tsconfig.json "outDir")
+server/dist/
+
+# Client build output (Vite)
+client/dist/
+
+# Vite cache
+.vite/
+
+
+# =======================================================
+# TypeScript & Cache
+# =======================================================
+# TypeScript build cache files
+*.tsbuildinfo
+.tmp/
+
+
+# =======================================================
+# IDE & OS Files
+# =======================================================
+# IDE directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# =======================================================
+# Logs & Test Reports
+# =======================================================
+*.log
+npm-debug.log*
+yarn-error.log
+coverage/
